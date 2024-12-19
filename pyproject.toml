@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "gpt"
+version = "0.0.0"
+description = "A simple implementation of GPT, using the [Attention is All You Need](https://arxiv.org/pdf/1706.03762) paper."
+authors = ["muhammad-fiaz <contact@muhammadfiaz.com>"]
+license = "MIT"
+readme = "README.md"
+
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+logly = ">=0.0.6,<0.1.0"
+packaging = ">=24.0,<25.0"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+torch = {url = "https://download.pytorch.org/whl/cu124/torch-2.5.1%2Bcu124-cp312-cp312-win_amd64.whl"}
+torchaudio = {url = "https://download.pytorch.org/whl/cu124/torchaudio-2.5.1%2Bcu124-cp312-cp312-win_amd64.whl"}
+torchvision = {url = "https://download.pytorch.org/whl/cu124/torchvision-0.20.1%2Bcu124-cp312-cp312-win_amd64.whl"}
+requests = "^2.32.3"
+tqdm = "^4.67.1"
+regex = "^2024.11.6"
+sentencepiece = "^0.2.0"
+tiktoken = "^0.8.0"
+blobfile = "^3.0.0"
+safetensors = "^0.5.0"
+huggingface-hub = "^0.27.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
