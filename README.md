@@ -46,10 +46,18 @@ You will also need to download the pre-trained GPT-2 model. The script will hand
 To generate text using GPT-2, use the following command:
 
 ```bash
-python run.py --text "Your input text here" --nsamples 3 --batch_size 1 --length 50 --temperature 0.7 --top_k 40
+python run.py --text "Your input text here" --nsamples 3 --batch_size 1 --length 50 --temperature 0.7 --top_k 40 --param 124M
 ```
 
 ### Arguments
+
+- `--param` (str)
+
+  Specifies the pre-trained model size to use, such as `124M`, `355M`, `774M`, or `1558M`. Default is `124M`.
+
+  ```bash
+     --param 355M
+  ```
 
 - `--text` (str):  
   The input text that will be used as the starting point for text generation. For example:
@@ -159,7 +167,7 @@ To generate three text samples with the following parameters:
 Run the command:
 
 ```bash
-python run.py --text "Once upon a time" --nsamples 3 --batch_size 1 --length 50 --temperature 0.7 --top_k 40
+python run.py --text "Once upon a time" --nsamples 3 --batch_size 1 --length 50 --temperature 0.7 --top_k 40 --param 124M
 ```
 
 ### License

@@ -22,7 +22,7 @@ def parse_arguments():
         --length (int): The length of the generated text. Default is -1, which means the model decides the length.
         --temperature (float): The sampling temperature that controls the randomness of predictions. Default is 0.7.
         --top_k (int): The number of top-k tokens to sample from for each prediction. Default is 40.
-        --param (str): The model parameter to use (e.g., '117M','124M' ,'345M'). Default is '117M'.
+        --param (str): The model parameter to use (e.g., '124M', '355M', '774M', '1558M'). Default is '124M'.
     """
     parser = argparse.ArgumentParser(description="Text generation using GPT-2 model")
 
