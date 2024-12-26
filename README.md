@@ -1,8 +1,8 @@
 <h1 align="center">GPT Implementation using Pytorch</h1>
 
-A simple implementation based on the ["Attention is All You Need"](https://arxiv.org/pdf/1706.03762) paper, using GPT-2 for text generation.
+A simple implementation repository based on the ["Attention is All You Need"](https://arxiv.org/pdf/1706.03762) paper, focused on learning and developing implementations of small-size models, using GPT-2 for text generation.
 
-> **This project is currently in active development.**
+> **This project is currently in active development. Make sure to ⭐ the repository! If you want to contribute, make sure to fork the repository.**
 
 ## Table of Contents
 
@@ -25,6 +25,7 @@ A simple implementation based on the ["Attention is All You Need"](https://arxiv
    - [--num_return_sequences](#num_return_sequences-int)
    - [--repetition_penalty](#repetition_penalty-float)
    - [--length_penalty](#length_penalty-float)
+   - [--param](#param-str)
 4. [Model Download](#model-download)
 5. [Example](#example)
 6. [License](#license)
@@ -176,11 +177,11 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ### Weights License
 
-The pre-trained GPT-2 model Weight is released under the [GPT-2 License](https://huggingface.co/openai-community/gpt2/tree/main) on Huggingface, and also you can refer on github [https://github.com/openai/gpt-2/blob/master/LICENSE](https://github.com/openai/gpt-2/blob/master/LICENSE), which allows for research and commercial use but with certain restrictions regarding model usage and the generation of harmful content.
+The pre-trained GPT-2 model Weight is released under the [GPT-2 License](https://huggingface.co/openai-community/gpt2/tree/main) on Huggingface, and also you can refer on [GitHub](https://github.com/openai/gpt-2/blob/master/LICENSE), which allows for research and commercial use but with certain restrictions regarding model usage and the generation of harmful content.
 
 ### Credits
 
-This implementation is inspired by and based on the work from the [OpenAI GPT-2 repository](https://github.com/openai/gpt-2), which provides the foundational model and techniques for text generation. We have built upon these concepts to create this PyTorch-based version.
+This implementation is inspired by and based on the work from the [GPT-2 repository](https://github.com/openai/gpt-2), which provides the foundational model and techniques for text generation. We have built upon these concepts to create this PyTorch-based version.
 
 Additionally, this implementation is also based on the "Attention is All You Need" paper, which introduced the Transformer architecture that serves as the foundation for GPT models.
 
