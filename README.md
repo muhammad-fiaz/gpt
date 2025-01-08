@@ -32,7 +32,7 @@ A simple implementation repository based on the ["Attention is All You Need"](ht
 7. [Weights License](#weights-license)
 8. [Credits](#credits)
 
-### Requirements
+## Requirements
 
 Before running the script, make sure you have the required dependencies installed:
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 You will also need to download the pre-trained GPT-2 model. The script will handle this for you if the model is not found locally.
 
-### Usage
+## Usage
 
 To generate text using GPT-2, use the following command:
 
@@ -50,7 +50,7 @@ To generate text using GPT-2, use the following command:
 python run.py --text "Your input text here" --nsamples 3 --batch_size 1 --length 50 --temperature 0.7 --top_k 40 --param 124M
 ```
 
-### Arguments
+## Arguments
 
 - `--param` (str)
 
@@ -150,11 +150,11 @@ python run.py --text "Your input text here" --nsamples 3 --batch_size 1 --length
   --length_penalty 1.0
   ```
 
-### Model Download
+## Model Download
 
 This script will attempt to download the pre-trained GPT-2 model automatically if it is not already available locally. The model is downloaded from Hugging Face's repository.
 
-### Example
+## Example
 
 To generate three text samples with the following parameters:
 
@@ -171,15 +171,15 @@ Run the command:
 python run.py --text "Once upon a time" --nsamples 3 --batch_size 1 --length 50 --temperature 0.7 --top_k 40 --param 124M
 ```
 
-### License
+## License
 
 This project is licensed under the [MIT License](./LICENSE).
 
-### Weights License
+## Weights License
 
 The pre-trained GPT-2 model Weight is released under the [GPT-2 License](https://huggingface.co/openai-community/gpt2/tree/main) on Huggingface, and also you can refer on [GitHub](https://github.com/openai/gpt-2/blob/master/LICENSE), which allows for research and commercial use but with certain restrictions regarding model usage and the generation of harmful content.
 
-### Credits
+## Credits
 
 This implementation is inspired by and based on the work from the [GPT-2 repository](https://github.com/openai/gpt-2), which provides the foundational model and techniques for text generation. We have built upon these concepts to create this PyTorch-based version.
 
