@@ -17,7 +17,7 @@ numpy = "^1.26.4"
 torch = {url = "https://download.pytorch.org/whl/cu124/torch-2.5.1%2Bcu124-cp312-cp312-win_amd64.whl"}
 torchaudio = {url = "https://download.pytorch.org/whl/cu124/torchaudio-2.5.1%2Bcu124-cp312-cp312-win_amd64.whl"}
 torchvision = {url = "https://download.pytorch.org/whl/cu124/torchvision-0.20.1%2Bcu124-cp312-cp312-win_amd64.whl"}
-requests = "^2.32.3"
+requests = "^2.32.4"
 tqdm = "^4.67.1"
 regex = "^2024.11.6"
 sentencepiece = "^0.2.0"
