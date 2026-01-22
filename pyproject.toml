@@ -20,7 +20,7 @@ torchvision = {url = "https://download.pytorch.org/whl/cu124/torchvision-0.20.1%
 requests = "^2.32.3"
 tqdm = "^4.67.1"
 regex = "^2024.11.6"
-sentencepiece = "^0.2.0"
+sentencepiece = "^0.2.1"
 tiktoken = "^0.8.0"
 blobfile = "^3.0.0"
 safetensors = "^0.5.0"
